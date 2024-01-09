@@ -1,5 +1,5 @@
-public class AssignmentOperator {
-     public static void main(String[] args) {
+    class AssignmentOperator {
+    public static void main(String[] args) {
        //Assignment  Operator 
         int m1,m2,m3,m4;
 
@@ -26,5 +26,3 @@ public class AssignmentOperator {
     }
     
 }
-    
-

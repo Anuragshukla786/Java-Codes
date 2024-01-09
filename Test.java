@@ -7,7 +7,7 @@ public class Test {
         //declare the variable
         //create the object
 
-        int num=9;//Primitive variable wo hote hai
+       // int num=9;//Primitive variable wo hote hai
         //jo kisi value ko refer krte hai
         Test obj=new Test();//Refrence variable wo hote hai jo kisi object ko 
         //refer krte hai

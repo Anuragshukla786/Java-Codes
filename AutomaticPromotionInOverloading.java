@@ -1,5 +1,4 @@
-  
-  class Auto
+class Auto
  {
     public void show(byte n)
     {
@@ -27,7 +26,9 @@
 public class AutomaticPromotionInOverloading {
     public static void main(String[] args) {
         Auto obj=new Auto();
-        obj.show(2);
+        byte b=2;
+        obj.show(b);
+
 
         
     }

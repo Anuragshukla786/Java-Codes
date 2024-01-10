@@ -24,7 +24,7 @@ class Auto
   
 }
 public class AutomaticPromotionInOverloading {
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
         Auto obj=new Auto();
         byte b=2;
         obj.show(b);

@@ -5,11 +5,11 @@ public class RelationalOperator {
         int b=10;
 
         boolean result = a==b;
-        System.out.println(result);
+        System.out.println(false);
         
         boolean result1 = a>b;
         System.out.println(result1);
-        
+
         boolean result2 = a<b;
         System.out.println(result2);
         

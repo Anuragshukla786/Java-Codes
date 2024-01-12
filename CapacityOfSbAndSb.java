@@ -1,6 +1,6 @@
 public class CapacityOfSbAndSb {
     public static void main(String[] args) {
- //Always capacity is increment by +1 multipy by 2
+ //gAlways capacity is increment by +1 multipy by 2
         StringBuffer sb=new StringBuffer();
         System.out.println(sb.capacity());
         sb.append("anuragshuklaamit");

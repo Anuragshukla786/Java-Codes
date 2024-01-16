@@ -6,6 +6,10 @@ class Student3 //Target class
     {
         this.h=h;
     }
+     public  void  setH( Heart h) //Setter Injection
+     {
+         this.h=h;
+     }
     public void call() //Create a method and call a Dependent class s Method using Reference
     {
         h.heartBreak();
@@ -22,7 +26,8 @@ public class DependencyInjection1 {
     public static void main(String[] args) {
         Heart h=new Heart();
         Student3 s=new Student3(h);
-        s.call();
+         s.call();
+        s.setH(h);
 
     }
 }

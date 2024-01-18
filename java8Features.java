@@ -9,6 +9,7 @@ interface  Animal3
     {
         System.out.println("Puppy Dog drink the milk");
     }
+
   // Static method is call in a main class Directly  Because we dont create a object of
     //Static method or class  Jvm called directly Without Create object
     static void  beeping()

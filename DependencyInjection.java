@@ -10,6 +10,9 @@ class Car
     {
         eng.startEngine();
     }
+
+    public void drive() {
+    }
 }
 class Engine
 {
